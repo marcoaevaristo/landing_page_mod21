@@ -1,11 +1,9 @@
 @use 'variaveis';
 @use 'hero';
 @use 'shows';
-@use 'plans';
-@use 'available-devices';
-@use 'faq';
 @use 'footer';
 @use 'header';
+@use 'faq';
 
 @font-face {
     font-family: Avenir;
@@ -39,39 +37,26 @@ body {
 
 @mixin title($fontSize: 28px) {
     @include text($fontSize);
-    color: variaveis.$corTextoSecundario
+    color: variaveis.$corTextoSecundario;
 }
 
 .text--big {
     @include text(18px);
 
-    @media (max-width: 768px) {
-        @include title(15px);
-    }
 }
 
 .text {
     @include text;
 
-    @media (max-width: 768px) {
-        @include title(14px);
-    }
 }
 
 .text--small {
     @include text(12px);
 
-    @media (max-width: 768px) {
-        @include title(11px);
-    }
 }
 
 .title--big {
     @include title(44px);
-
-    @media (max-width: 768px) {
-        @include title(26px);
-    }
 }
 
 .title {
@@ -137,24 +122,16 @@ body {
 }
 
 .image-text-section {
-    padding: 5.6vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 0 25vw;
     align-items: center;
 
-    @media (max-width: 768px) {
-        display: block;
-    }
-
-    img {
-        max-width: 100%;
-    }
 
         &__text_container {
             padding: 0 2VW;
 
             H2 {
-                margin-bottom: 24PX;
+                margin-bottom: 32PX;
+                
             }
         }  
         
@@ -175,12 +152,7 @@ body {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-
-                @media (max-width: 768px) {
-                    position: relative;
-                    left: 0;
-                    width: 100%;
-                }
             }
         }
 }
+

@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone Disney+</title>
+    <title>Meu filme</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
     <header class="header">
         <div class="header__container">
             <h1>
-                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img class="header__logo" src="./dist/images/logos/logo cab.jpg" alt="Disney+">
             </h1>
             <ul class="header__links">
                 <li class="header__links__item">
-                    <a href="#" class="button button--secondary">Assine agora</a>
+                    <a href="#" class="button button--secondary">Assista agora</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#" class="button button--dark">Entrar</a>
+                    <a href="#" class="button button--secondary">Saiba mais</a>
                 </li>
             </ul>
         </div>
@@ -25,272 +25,116 @@
     <section class="hero">
         <div class="hero__content">
             <div class="hero__content__branding">
-                <img src="./dist/images/disneyplus.svg" alt="Disney+">
+                
             </div>
-            <h3 class="title--small">
-                As melhores histórias em um só lugar.
-            </h3>
-            <p>
-                <a href="#" class="link-text">Assinar o Disney+</a>
-                <br>
-                <span class="text">
-                    R$ 27,90/mês ou R$ 279,90/ano à vista*
-                </span>
-            </p>
-            <ul class="hero__content__combos">
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine Agora</button>
-                    <span class="text">R$ 45,90/mês*</span>
-                </li>
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine Agora</button>
-                    <span class="text">R$ 55,90/mês*</span>
-                </li>
-            </ul>
-            <p class="text--small">
-                *O preço pode variar caso a assinatura seja feita através de outras plataformas.
-            </p>
-        </div>
 
     </section>
     <section class="shows">
-        <nav class="shows__tabs">
-            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
-                Em breve
-            </button>
-            <button data-tab-button="populares" class="shows__tabs__button">
-                Mais populares
-            </button>
-            <button data-tab-button="star_plus" class="shows__tabs__button">
-                Mais no Star+
-            </button>
-        </nav>
-        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+        <h1 class="title">Sinopse</h1><br>
+        <p class="text--big">"Em continuidade ao universo de Avatar, a icônica obra de ficção científica de 2009 dirigida por James Cameron, surge uma nova saga. Temporariamente intitulada como Avatar: The Seed Bearer, esta próxima etapa acompanha Jake Sully (Sam Worthington) e Neytiri (Zoe Saldana), agora pais, liderando sua família em direção a uma nova tribo Na'vi. Esta tribo, possivelmente associada ao elemento fogo ou cinzas, foi apelidada pelo diretor como "Ash People" ou "Povo das Cinzas". Estes novos personagens, antagônicos à trama, prometem introduzir um novo e fascinante capítulo na jornada épica."</p><br>
+                <nav class="shows__tabs">
+                    <button data-tab-button="melhores_cenas" class="shows__tabs__button shows__tabs__button--is-active">
+                        Melhores Cenas
+                    </button>
+                    <button data-tab-button="elenco" class="shows__tabs__button">
+                        Elenco
+                    </button>
+                </nav>
+        <ul data-tab-button="melhores_cenas" class="shows__list shows__list--is-active">
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/cenas/cena1.jpg" alt="cena">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/cenas/cena2.jpg" alt="cena">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/cenas/cena3.jpg" alt="cena">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/cenas/cena4.jpg" alt="cena">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/cenas/cena5.jpg" alt="cena">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/cenas/cena6.jpg" alt="cena">
             </li>
         </ul>
-        <ul data-tab-id="populares" class="shows__list">
+        <ul data-tab-button="elenco" class="shows__list">
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="Obi Wan">
+                <img src="./dist/images/elenco/img1.jpg" alt="Spidey">
+                <p class="text--big">Susan Alexandra Weaver</p>
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/elenco/img2.jpg">
+                <p class="text--big">Zoe Saldana</p>
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/elenco/img3.jpg" alt="elenco">
+                <p class="text--big">Sam Worthington</p>
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/elenco/img7.jpg" alt="elenco">
+                <p class="text--big">Susan Alexandra Weaver</p>
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/elenco/img5.jpg" alt="elenco">
+                <p class="text--big">Kate Winslet</p>
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
+                <img src="./dist/images/elenco/img6.jpg" alt="elenco">
+                <p class="text--big">Oona Castilla Chaplin</p>
             </li>
         </ul>
-        <ul data-tab-id="star_plus" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="Libertadores">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt=Spidey">
-            </li>
-        </ul>
-    </section>
-    <section class="plans">
-        <h2 class="title--big">Escolha seu plano</h2>
-        <ul class="plans__list">
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
-                <strong class="title--small">R$ 27,90/mês*</strong>
-                <p class="text--big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
-                <strong class="title--small">R$ 45,90/mês*</strong>
-                <p class="text--big">
-                    Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
-                <strong class="title--small">R$ 55,90/mês*</strong>
-                <p class="text--big">
-                    Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os três serviços juntos.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-        </ul>
-        <p class="text--small">
-            *O preço pode variar caso a assinatura seja feita através de outras plataformas.
-        </p>
     </section>
     <section class="image-text-section">
-        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem com TV, Computador, tablet e celular">
-        <div class="image-text-section__text_container">
-            <h2 class="title">Assista do seu jeito</h2>
-            <p class="text--big">
-                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telos ao mesmo tempo.
-            </p>
-        </div>
+       <div>
+        <h2 class="title">Assista ao trailer</h2>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/2CBcvnuv5ag" frameborder="0" allowfullscreen></iframe>
+       </div>
     </section>
-    <section class="image-text-section image-text-section--image-full-width">
-        <picture>
-            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
-            <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
-        </picture>
-        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
-            <h2 class="title">Baixe filmes e séries</h2>
-            <p class="text--big">
-                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
-            </p>
-        </div>
-    </section>
-    <section class="available-devices">
-        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
-        <ul class="available-devices__list">
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
-                <h4 class="title--small">Computador</h4>
-                <ul class="text">
-                    <li>Chrome OS</li>
-                    <li>MacOS</li>
-                    <li>PC Windows</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/tv.png" alt="TV">
-                <h4 class="title--small">TV</h4>
-                <ul class="text">
-                    <li>Amazon Fire TV</li>
-                    <li>Android TV</li>
-                    <li>Apple TV</li>
-                    <li>Chromecast</li>
-                    <li>TVs LG</li>
-                    <li>Roku</li>
-                    <li>Samsung</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/videogames.png" alt="Videogames">
-                <h4 class="title--small">Videogames</h4>
-                <ul class="text">
-                    <li>PS4</li>
-                    <li>PS5</li>
-                    <li>Xbox One</li>
-                    <li>Xbox Series X</li>
-                    <li>Xbox Series S</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/celular.png" alt="Celulares e tablets">
-                <h4 class="title--small">Celulares e tablets</h4>
-                <ul class="text">
-                    <li>Tablets Amazon Fire</li>
-                    <li>Celulares e Tablets Android</li>
-                    <li>Iphone e iPad</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+
     <section class="faq">
         <h2 class="title">Perguntas frequentes</h2>
     <ul class="faq__questions">
         <li class="faq__questions__item">
             <div class="faq__questions__item__question" data-faq-question>
-                <p>O que está incluído no Disney+?</p>
+                <p>O que se sabe de Avatar 3?</p>
             </div>
             <div class="faq__questions__item__answer text--big">
-                <p>O Disney+ oferece:</p> <br>
-                <p><strong>•</strong> Experiêcia premuim sem intervalos comerciais.</p><br>
-                <p><strong>•</strong> As melhores histórias da Disney, Pixar, Marvel, Star Wars e Nacional Geographic, tudo em um só lugar.</p><br>
-                <p><strong>•</strong> Groupwatch: assista junto com amigos ou familiares, mesmo separados.</p><br>
-                <p><strong>•</strong> Dowloads ilimitados em até 10 dispositivos compatíveis.</p><br>
-                <p><strong>•</strong> Mais de 300 títulos em 4K UHD e HDR.</p><br>
-                <p><strong>•</strong> A possibilidade de assistir em até 4 dispositivos compatíveis simultaneamente sem custo adicional.</p><br>
-                <p><strong>•</strong> IMAX Enhanced: disponível para alguns títulos da Marvel em dispositivos compatíveis com o Disney+.</p>
+                <p><strong>R:</strong> Previsto para 2025, Avatar 3 já foi filmado e está em pós-produção. Surgiram rumores de que James Cameron teria um corte de 9 horas de Avatar 3, o que o diretor fez questão de negar em entrevista ao Temple of Geek, explicando que foi mal interpretado e nunca existiram planos de lançar qualquer versão com esta duração.</p>
+                
             </div>
         </li>
         <li class="faq__questions__item">
             <div class="faq__questions__item__question" data-faq-question>
-                <p>Já tem Disney+ ou o Star+ e quer o Combo+?</p>
+                <p>Qual o nome da criatura mais temida do filme Avatar?</p>
             </div>
             <div class="faq__questions__item__answer text--big">
-                <p>Ao assinar o Combo+:</p><br>
-                <p><strong>•</strong> O valor da sua assinatura existente será descontado do preço do Combo+.</p><br>
-                <p><strong>•</strong> Se você assina o plano mensal, o valor que você paga mensalmente será descontado do preço do Combo+.</p><br>
-                <p><strong>•</strong> Se você tem uma assinatura anual do Disney+ cobrada diretamente pelo Disney+, não é possível mudar para o Combo+ no momento. Entre em contato com o <a href="link-do-suporte-do-disney+" target="_blank" style="color: inherit; text-decoration: underline; font-weight: bold;">suporte do Disney+</a> para conhecer suas opções.</p><br>
-                <p><strong>•</strong> Você vai receber um e-mail com os valores detalhados assim que finalizar o pagamento.</p><br>
-                <p><strong>•</strong> Você vai receber um e-mail com os valores detalhados assim que finalizar o pagamento.</p><br>
-                <p><strong>•</strong> Lembre-se: você pode cancelar a assinatura quando quiser.</p><br>
-                <p>No momento, apenas a assinatura mensal do Combo+ está disponível.</p>
+                <p>Thanator: É a mais temida das criaturas de Pandora.</p>
             </div>
         </li>
         <li class="faq__questions__item">
             <div class="faq__questions__item__question" data-faq-question>
-                <p>Quais as formas de pagamento posso utilizar?</p>
+                <p>Quem é o mais forte de Avatar?</p>
             </div>
             <div class="faq__questions__item__answer text--big">
-                <p>Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia e internet.</p>
+                <p>Avatar mais poderoso sempre será o último, então Korra.</p>
             </div>
         </li>
         <li class="faq__questions__item">
             <div class="faq__questions__item__question" data-faq-question>
-                <p>Como posso ver conteúdo com classificação indicativa até 16 e 18?</p>
+                <p>Onde fica o planeta Pandora?</p>
             </div>
             <div class="faq__questions__item__answer text--big">
-                <p>Para poder acessar o catálogo completo que inclui conteúdo com classificação indicativa até 16 e 18, todos os usuários do Disney+ na América Latina devem atualizar as configurações de controle parental do perfil. É possível restringir o conteúdo de cada perfil e também adicionar um PIN de bloqueio. Os usuários que preferirem manter a configuração atual vão continuar aproveitando o Disney+ com a classificação indicativa até 14, podendo alterá-la a qualquer momento em "Editar Perfis".</p>
-            </div>
-        </li>
-        <li class="faq__questions__item">
-            <div class="faq__questions__item__question" data-faq-question>
-                <p>Onde posso assistir ao Disney+?</p>
-            </div>
-            <div class="faq__questions__item__answer text--big">
-                <p>O aplicativo do Disney+ está disponível em dispositivos móveis, navegadores, videogames, decodificadores e smart TVs. Confira a <strong><a href="link-da-central-de-ajuda" target="_blank" style="color: inherit; text-decoration: underline; font-weight: bold;">lista completa de dispositivos compatíveis na Central de ajuda</a></strong>.</p>
+                <p>Pandora, na verdade, é uma lua que orbita um planeta gigante gasoso, estes planetas se formam em uma região além da linha do gelo . Portanto, Pandora provavelmente está em uma região do sistema onde não seria possível a presença de água em estado líquido.</p>
             </div>
         </li>
     </ul>
 </section>
-
 <footer class="footer">
     <div class="footer__container">
-        <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+        <img class="footer__logo" src="./dist/images/logos/logo cab.jpg" alt="logo avatar 3">
     <ul class="footer__links">
         <li class="footer__links__item">
             <div class="language-selector">
@@ -320,14 +164,14 @@
             <a href="#" class="text--small">Ajuda</a>
         </li>
         <li class="footer__links__item">
-            <a href="#" class="text--small">Sobre o Disney+</a>
+            <a href="#" class="text--small">Sobre o Avatar</a>
         </li>
     </ul>
     <p class="text--small">
-        ® 2024 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+        ® 2024 Marco Antonio Evaristo / Curso de Dev Full Stack Python - EBAC Escola Britânica de Artes Criativas & Tecnologia, Todos os direitos reservados.
     </p>
     <p class="text--small">
-        Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+         Av. São Paulo, 0000, Piso 10000, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/ 00.000.000/0001-00
     </p>
     </div>
 </footer>
